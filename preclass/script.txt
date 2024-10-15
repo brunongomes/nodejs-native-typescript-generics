@@ -1,0 +1,4 @@
+https://github.com/nodejs/loaders/issues/208
+https://nodejs.org/api/cli.html#--experimental-strip-types
+
+https://nodejs.org/api/typescript.html#importing-types-without-type-keyword
