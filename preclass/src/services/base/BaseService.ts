@@ -1,4 +1,3 @@
-// currently doesnt work
 import { type IRepository } from '../../repositories/base/IRepository.ts';
 import { type IService } from '../base/IService.ts';
 
@@ -7,7 +6,6 @@ export abstract class BaseService<T> implements IService<T> {
     constructor(repository: IRepository<T>) {
         this.repository = repository;
     }
-
     create(item: T): void {
         this.repository.create(item);
     }
